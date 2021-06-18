@@ -1,0 +1,83 @@
+.navbar{
+    background: rgb(0 0 0 / 18%);
+}
+a{
+    color: blueviolet;
+    text-decoration: underline;
+}
+a:hover{
+    color: black;
+}
+.profile{
+    width: 420px;
+height: 381px;
+margin-left: 13px;
+}
+.row {
+    padding: 30px 25px 20px 35px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.project{
+    background-image: url(./../images/HR-Outsourcing-2.png);
+    background: rgb(0 0 0 / 18%);
+    display: inline-block;
+    width: 350px;
+    height: 259px;
+    margin: 15px 5px 15px 5px;
+}
+.project:hover{
+    color: blue;
+}
+.project:hover::after{
+    color: blue;
+    opacity: 1;
+
+    z-index: 1;
+}
+h2{
+    text-align: center;
+    color: #1d2124;
+    background: #9a56d9;
+    margin-top: 13px;
+}
+
+.container{
+    width: 90%;
+    background-color: white;
+
+}
+
+.js{
+    width:60%;
+    background-color: green;
+}
+.react{
+    width:80%;
+    background-color: green;
+}
+.css{
+    width:70%;
+    background-color: green;
+}
+.html{
+    width:80%;
+    background-color: green;
+}
+.mongo{
+    width:90%;
+    background-color: green;
+}
+.express{
+    width:75%;
+    background-color: green;
+}
+.sql{
+    width:85%;
+    background-color: green;
+}
+.angular{
+    width:70%;
+    background-color: green;
+}
